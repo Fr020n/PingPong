@@ -127,7 +127,7 @@
                 {
                     case 'lost':
                         {
-                            alert('Koniec gry. Twój czas to '+ getPlayTime() + " sekund");
+                            alert('Koniec gry. Twoj czas to '+ getPlayTime() + " sekund");
                             resetPlayTime();
                             resetSpeed();
                             location.reload(); 
@@ -318,5 +318,5 @@
         }
         
         function setSpeedOnLabel(){
-            SpeedLabel.value = "Szybkoœæ: " + actualSpeed;
+            SpeedLabel.value = "Szybkosc: " + actualSpeed;
         }
